@@ -309,6 +309,12 @@ p#about-text {
   font-size: 1.6rem;
 }
 
+.quarter.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*gallery images*/
 .row-padding.center {
   display: grid;
@@ -440,6 +446,10 @@ button.button.section.submit {
   width: 100%;
   justify-content: center;
   cursor: pointer;
+}
+
+a#footer-top-btn {
+  padding: 1px 8.5px 1px 4.5px;
 }
 
 .footer:hover {
@@ -647,6 +657,15 @@ i.fa.fa-arrow-up {
     padding: 5px 14px;
     position: absolute;
     margin-top: 50.63rem;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .quarter.section {
+    inline-size: 0.1rem;
+  }
+  .number-data {
+    font-size: 1.27rem;
   }
 }
 
