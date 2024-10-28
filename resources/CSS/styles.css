@@ -73,10 +73,6 @@ button {
   white-space:nowrap;
 }
 
-/* VALUTARE SE TOGLIERE button,[type=button],[type=reset],[type=submit] {
-  -webkit-appearance: button;
-}*/
-
 button:hover {
   color:#000;
   background-color:#a3afa3;
@@ -91,9 +87,6 @@ button:active {
 }
 
 .button:first-child {
-  /* VALUTARE SE AGGIUNGERE IN MOBILE background-color:#7f93a8;
-  color:#000;
-  padding: 0.39rem;*/
   text-decoration: none;
 }
 
@@ -282,20 +275,20 @@ p#about-text {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/podu-stricat-unsplash.jpg');
+  background-image: url(../pictures/parallax-imgs/podu-stricat-unsplash.jpg);
   min-height: 92%;
   
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/photo-nic-unsplash.jpg");
+  background-image: url(../pictures/parallax-imgs/photo-nic-unsplash.jpg);
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/austin-ban-unsplash.jpg");
+  background-image: url(../pictures/parallax-imgs/austin-ban-unsplash.jpg);
   min-height: 400px;
 }
 
