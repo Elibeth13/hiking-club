@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Club Website by @elibeth13</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="resources/CSS/styles.css">
+
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="top">
+      <div class="bar" id="myNavbar">
+        </a>
+        <a href="#home" class="bar-item button home">HOME</a>
+        <a href="#about" class="bar-item button bigscreen"><i class="fa fa-user"></i> ABOUT</a>
+        <a href="#portfolio" class="bar-item button bigscreen"><i class="fa fa-th"></i> GALLERY</a>
+        <a href="#contact" class="bar-item button bigscreen"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="#" class="bar-item button search">
+          <i class="fa fa-search"></i>
+        </a>
+      </div>
+    </div>
+
+      <!-- Navbar on small screens -->
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn"><i class="fa fa-bars"></i></button>
+      <div class="dropdown-content">
+        <a href="#about">ABOUT</a>
+        <a href="#portfolio">GALLERY</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#"><i class="fa fa-search"></i></a>
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 display-container" id="home">
+      <div class="display-middle">
+        <span class="center-title"> EUROPE HIKING CLUB</span>
+      </div>
+    </div>
+    
+    <main>
+
+      <!-- Container (About Section) -->
+      <div class="content container" id="about">
+        <h3 class="center">ABOUT THE CLUB</h3>
+        <p class="center"><em>We love hiking and trekking</em></p>
+        <p id="about-text">That is a fictional club website about an hiking and trekking club in Europe. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    
+      <div class="numbers-row">
+        <div class="quarter section">
+          <span class="number-data">14</span><br>
+          Wildlands Guides
+        </div>
+        <div class="quarter section">   
+          <span class="number-data">140+</span><br>
+          Trips Done
+        </div>
+        <div class="quarter section">
+          <span class="number-data">1200+</span><br>
+          Happy Hikers
+        </div>
+        <div class="quarter section">
+          <span class="number-data">All</span><br>
+          Countries
+        </div>
+      </div>
+    
+      <!-- Second Parallax Image with Portfolio Text -->
+      <div class="bgimg-2 display-container">
+        <div class="display-middle-2">
+          <span class="second-title">GALLERY</span>
+        </div>
+      </div>
+    
+      <!-- Container (Portfolio Section) -->
+      <div class="content container" id="portfolio">
+        <h3 class="center">GALLERY</h3>
+        <p class="center"><em>Here are some pictures from our trips.<br> Click on the images to make them bigger</em></p><br>
+    
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="row-padding center">
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/robin-st-mLnwzKAanRY-foresta-nera-unsplash.jpg" style="width:100%" class="img-item" alt="Black forest">
+          </div>
+    
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/toomas-tartes-unsplash.jpg" style="width:100%" class="img-item" alt="Hiking">
+          </div>
+    
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/hector-martinez-HmnMQD51h1o-galizia-unsplash.jpg" style="width:100%" class="img-item" alt="Galicia">
+          </div>
+    
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/christian-lendl-rUPvNe8OESQ-corsica-unsplash.jpg" style="width:100%" class="img-item" alt="Corsica">
+          </div>
+        </div>
+    
+        <div class="row-padding center section">
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/mate-homolya-4AhgpQZyCvo-santorini-unsplash.jpg" style="width:100%" class="img-item" alt="Santorini">
+          </div>
+    
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/evgeny-matveev-5DErV6wf00Q-irlanda-unsplash.jpg" style="width:100%" class=" img-item" alt="Ireland">
+          </div>
+    
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/jorge-flores-unsplash.jpg" style="width:100%" class="img-item" alt="Hiking with dogs">
+          </div>
+    
+          <div class="gallery-item">
+            <img src="/Users/elibe/DevProjects_Front-End/Responsive-club-website/resources/pictures/gallery/julia-boiun-hOU_q37d7Os-unsplash.jpg" style="width:100%" class="img-item" alt="Lake Garda">
+          </div>
+          <button class="button" id="gallery-button">LOAD MORE</button>
+        </div>
+      </div>
+    
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="modal" onclick="this.style.display='none'">
+        <span class="button" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="modal-content animate-zoom">
+          <img id="img01" class="image">
+          <p id="caption" class="opacity"></p>
+        </div>
+      </div>
+    
+      <!-- Third Parallax Image with Portfolio Text -->
+      <div class="bgimg-3 display-container">
+        <div class="display-middle-2">
+          <span class="third-title">CONTACT</span>
+        </div>
+      </div>
+    
+      <!-- Container (Contact Section) -->
+      <div class="content container" id="contact">
+        <h3 class="center">CONTACT</h3>
+        <p class="center"><em>We'd love you to join us in our adventures!</em></p>
+    
+        <div class="row section">
+          <div class="col m8 panel">
+            <div class="margin-bottom">
+              <i class="fa fa-map-marker fa-fw"></i> Rennes, FR | Bologna, IT | Dublin, IR | Madrid, SP | Berlin, DE | Athens, GR<br>
+              <i class="fa fa-phone fa-fw"></i> Phone: +00 121212<br>
+              <i class="fa fa-envelope fa-fw"></i> Email: mail.hikingclub@mail.com<br>
+            </div>
+            <p>Subscribe to the Club or ask informations:</p>
+            <form action="/action_page.php" target="_blank">
+              <div class="row-action-padding">
+                <div class="half">
+                  <input class="input border" type="text" placeholder="Name" required name="Name">
+                </div>
+                <div class="half">
+                  <input class="input border" type="text" placeholder="Email" required name="Email">
+                </div>
+              </div>
+              <input class="input border" type="text" placeholder="Message" required name="Message">
+              <button class="button section submit" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- scroll to top button -->
+      <a href="#home" class="scroll-to-top"><i class='fa fa-angle-double-up'></i></a>
+
+    </main>  
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="#home" class="button"><i class="fa fa-arrow-up"></i>Top</a>
+      <div class="follow-section">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-pinterest-p"></i>
+      </div>
+      <p>Website design <a href="https://github.com/Elibeth13" title="elibeth13-github" target="_blank" class="hover-footer">@Elibeth13 | E. Turci</a></p>
+    </footer>
+    
+    </body>
+    </html>
