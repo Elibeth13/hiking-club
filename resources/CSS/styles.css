@@ -88,17 +88,7 @@ button:active {
 
 .button:first-child {
   text-decoration: none;
-}
-
-.button:first-child:hover {
-  background-color:#d5dde5;
-  transition: 0.1s ease-in-out;
-}
-
-.button:first-child:active {
-  background-color: #365584b5;
-  color: white;
-  transition: 0.26s ease-in-out;
+  background-color: #16233627;
 }
 
 .display-container {
@@ -538,6 +528,17 @@ i.fa.fa-arrow-up {
 }
 
 @media only screen and (max-width: 570px) {
+  .button:first-child:hover {
+  background-color:#d5dde5;
+  transition: 0.1s ease-in-out;
+}
+
+.button:first-child:active {
+  background-color: #365584b5;
+  color: white;
+  transition: 0.26s ease-in-out;
+}
+  
 /*dropdown menu*/
   a.bar-item.button.bigscreen {
     display: none;
